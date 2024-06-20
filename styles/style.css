@@ -26,6 +26,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: #1d1d1b;
 }
+#es-loreal.es-loreal .swiper-pagination-bullet-active {
+  background: #464748 !important;
+}
 #es-loreal.es-loreal .es-kv__img {
   max-width: 100%;
   display: block;
@@ -640,8 +643,15 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-
+@media screen and (min-width: 500px) {
+  #es-loreal.es-loreal .es-slick-carousel {
+    max-width: 300px;
+  }
+}
 @media screen and (min-width: 600px) {
+  #es-loreal.es-loreal .es-slick-carousel {
+    max-width: 400px;
+  }
   #es-loreal.es-loreal .es-kv__img--mobile {
     display: none;
   }
